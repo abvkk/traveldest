@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    text-align: center;
+}
+
+.destination-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.destination-card {
+    background-color: white;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 8px;
+    width: 300px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.destination-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
